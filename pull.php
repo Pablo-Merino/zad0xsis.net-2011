@@ -20,5 +20,3 @@ if($_GET['pass'] == sha1($password)) {
 
 }
 ?>
-
-?>

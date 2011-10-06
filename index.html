@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>zad0xsis.net 2.0</title>
+    <meta name="description" content="">
+    <meta name="author" content=""><!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript">
+</script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/tabs.js" type="text/javascript">
+</script>
+    <script src="js/twitter.js" type="text/javascript">
+</script>
+    <script src="js/twipsy.js" type="text/javascript">
+</script>
+    <script src="js/popover.js" type="text/javascript">
+</script><!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <style type="text/css">
+
+    .box {
+        background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+        }
+    .circle {
+        display: block;
+        font-size: 30px;
+                       
+        font-style: italic;
+                       
+        display: block;
+        width: 80px;
+        height: 80px;
+        background: #434343;
+        -moz-border-radius: 40px;
+        -webkit-border-radius: 40px;
+    }
+    .circle p {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 30px;
+    }
+    #php {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    }
+    #ruby {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    }
+    #ios {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    }
+    #jquery {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    }
+    #html {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    }
+    #net {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    }
+    #php:hover {
+    opacity: 1;
+    }
+    #ruby:hover {
+    opacity: 1;
+    }
+    #ios:hover {
+    opacity: 1;
+    }
+    #jquery:hover {
+    opacity: 1;
+    }
+    #html:hover {
+    opacity: 1;
+    }
+    #net:hover {
+    opacity: 1;
+    }
+    #tweet {
+    	font-size: 20px;
+    	font-weight: bold;
+    }
+    html {
+    	background-repeat: repeat;
+    	background-image: url(./img/bg.png);
+    }
+    body {
+    	background-repeat: repeat;
+    	background-image: url(./img/bg.png);
+    }
+    </style>
+    <script type="text/javascript">
+
+
+        $(document).ready(function() {
+            $(function () {
+                $('.pills').tabs();
+            });
+            $("#php").popover({ placement: "above"});
+            $("#ios").popover({ placement: "above"});
+            $("#ruby").popover({ placement: "above"});
+            $("#net").popover({ placement: "above"});
+            $("#html").popover({ placement: "above"});
+            $("#jquery").popover({ placement: "above"});
+
+        }); 
+
+    </script>
+</head>
+
+<body>
+    <div class="container" style="background-repeat: repeat; background-image: url(./img/bg.png);">
+        <h1 align="center">zad0xsis.net</h1>
+
+        <ul class="pills" style="margin-left: 320px">
+            <li class="active"><a href="#home">Home</a></li>
+
+            <li><a href="#about">About me</a></li>
+
+            <li><a href="#random">Random</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+		<div class="alert-message success">
+  			<p align="center"><strong>zad0xsis.net 2.0</strong> Now all jQuery, CSS and HTML :D (no PHP)</p>
+		</div>
+        <div class="box">
+            <div class="pill-content">
+                <div class="active" id="home">
+                    <h3 style="text-align: center; font-size: 25px; margin-bottom: 18px">Home</h3>
+
+                    <p style="line-height:18px">Hi! You're now on Pablo's home on the internet. I'm <strong>Pablo Merino</strong>, an 15 years old guy from <strong>Spain</strong>. I love being on the computer doing things, and I have skills in <strong>Objetive-C</strong> (focused on Cocoa Touch), I'm beginner in <strong>C++</strong> and <strong>Ruby on Rails</strong> and I'm experienced with <strong>PHP</strong> and <strong>HTML+CSS</strong> and <strong>Photoshop</strong>.</p>
+
+                    <p style="line-height:18px">I am the <strong>developer</strong> of three apps for iOS:</p>
+
+                    <ul>
+                        <li><a href="http://itunes.apple.com/en/app/peaknet/id412745954?mt=8">PeakNET</a></li>
+
+                        <li>Infometer+ (which is being approved for being in Cydia)</li>
+
+                        <li>NetServices (which is in Cydia Store, for jailbroken users and is <a href="https://github.com/Pablo-Merino/NetServices">open source</a>).</li>
+                    </ul>
+
+                    <p></p>
+
+                    <p style="line-height:18px; margin-bottom: 3px">Oh! And take a look at <a href="http://www.hackerstickers.com">Hacker Stickers</a>! They have cool stickers! I got some for my laptop there :D</p>
+
+                    <h3><a href="http://twitter.com/zad0xsis">Twitter</a></h3>
+
+                    <p>Well, here are my thoughts:</p>
+
+                    <p id="tweet"><img src="./img/load.gif"> Loading tweet…</p>
+                </div>
+
+                <div id="about">
+                    <h3 style="text-align: center; font-size: 25px">Who am I?</h3><br>
+
+                    <p align="center" style="line-height:18px;">Hi! My name is Pablo Merino, I live in Spain, although I'd love to live in New York, or Stockholm. I love computers and gadgets, my actual computer is a 27 inches Intel iMac running OS X Lion. I use a iPhone 3GS and I like chocolate with milk and girls a lot. I know those next languages:<br></p>
+
+                    <center style="font-weight: bold;">
+                        Objective-C, C++, PHP, HTML+CSS, Spanish and English
+                    </center><br>
+                    I'm usually working on 5 or so projects at the same time, so I'm so busy. When I can I do skiing, swimming and snorkel :D
+
+                    <p><br></p>
+
+                    <center>
+                        <img src="./img/me.jpg" style="width: 200px; height: 200px; border-style: dotted; border-width:1px;">
+
+                        <div style="margin-top: 5px">
+                            <p>Yes, that's me doing stupid things for sure.</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div id="random">
+                    <h3 style="text-align: center; font-size: 25px">Random things</h3><br>
+
+                    <p style="line-height:18px">A collection of random things (mostly images):</p>
+
+                    <blockquote>
+                        <p style="margin-bottom: 15px">Speed and ping tests</p><img src="http://www.pingtest.net/result/38964799.png"> <img src="http://www.speedtest.net/result/1275083205.png">
+                    </blockquote>
+
+                    <blockquote>
+                        <p style="margin-bottom: 15px">iOS Homescreen</p><img src="http://assets.homescreen.me/homescreen_images/1949/original/IMG_0058.PNG?1315481123">
+                    </blockquote>
+
+                    <blockquote>
+                        <p style="margin-bottom: 15px">8-bit Xcode and Interface Builder icons</p><img src="./img/8bitxcode.png" style="width: 300px; height: 300px"><img src="./img/8bitib.png" style="width: 300px; height: 300px">
+                    </blockquote>
+                </div>
+
+                <div id="contact">
+                    <h3 style="text-align: center; font-size: 25px">Contact</h3><br>
+
+<p style="line-height:18px">Drop me a <strong>line</strong>, I always enjoy a nice talk :D Also browse my <strong>GitHub</strong>, and look over my vids on <strong>YouTube</strong>:</p>
+<center><div style="margin-top:15px"><a href="http://forrst.me/zad0xsis"><img src="./img/socicons/forrst.png"></a>&nbsp;<a href="http://github.com/pablo-merino"><img src="./img/socicons/github.png"></a>&nbsp;<a href="mailto:pablo.perso1995@gmail.com"><img src="./img/socicons/email.png"></a>&nbsp;<a href="http://twitter.com/zad0xsis"><img src="./img/socicons/twitter-2.png"></a>&nbsp;<a href="http://youtube.com/zad0xsis"><img src="./img/socicons/youtube.png"></a></div></center></p>
+<hr style="margin-top: 15px; margin-bottom: 25px">
+<p style="text-align: center; margin-top: -10px"><strong>Disclaimer:</strong> Beta site, may be bugs, please <a href="mailto:pablo@zad0xsis.net">email me</a> if you find one.</p>
+                </div>
+            </div>
+        </div>
+
+        <div align="center" style="margin: 20px"><h1 align="center">I know how to write in</h1><!--<php id="php" class="circle" title="I do PHP" data-content="I got hooked to PHP early 2011, but I must say is one of the most complete and useful language ever">&nbsp;<p style="color: white; margin-top: 12px;margin-left:5px">php</p></php><php id="php" class="circle" title="I do PHP" data-content="I got hooked to PHP early 2011, but I must say is one of the most complete and useful language ever">&nbsp;<p style="color: white; margin-top: 12px;margin-left:5px">php</p></php>-->
+        <img id="php" src="./img/php.png" style="margin-right: 15px" title="I do PHP" data-content="I got hooked to PHP early 2011, but I must say is one of the most complete and useful language ever"> <img id="ios" src="./img/ios.png" style="margin-right: 15px" title="I do iOS dev" data-content="I really love iOS dev, and I know a lot and always learning more"> <img id="html" src="./img/html.png" style="margin-right: 15px" title="I do HTML" data-content="I'm a real pro on HTML5+CSS3 :D"> <img id="jquery" src="./img/jquery.png" style="margin-right: 15px" title="I do jQuery" data-content="I'm a bit unexperienced in jQuery, but I know the basics of it"> <img id="net" src="./img/net.png" style="margin-right: 15px" title="I do .NET" data-content="Over all C# and VB.NET"> <img id="ruby" src="./img/ruby.png" style="margin-right: 15px" data-content="I started learning Ruby on Rails like three months ago. I like it although I'm not used to it" title="I do Ruby on Rails"></div>
+        <p align="center">2011 &copy; zad0xsis.net</p>
+    </div>
+</body>
+</html>

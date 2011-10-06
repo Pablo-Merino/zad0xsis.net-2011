@@ -1,7 +1,6 @@
 <?php
 
 $payload = json_decode(stripslashes($_POST['payload']));
-
 $password = "ULTRAmegaHIPERsuperdifficultpassword18365385937267--..,.--,-..,-";
 
 if($_GET['pass'] == sha1($password)) {

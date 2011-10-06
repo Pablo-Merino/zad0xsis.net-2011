@@ -17,5 +17,4 @@ if($_GET['pass'] == sha1($password)) {
 } else {
 	fwrite(fopen('./bitbucket.txt', 'a'), "(".date("d/m/Y")." - ".date("h:m:s").") WRONG GET KEY\n");
 }
-
 ?>
